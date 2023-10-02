@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#page {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#main-content {
+    flex: 1;
+    margin-right: 25px;
+}
+
+#sidebar {
+    width: 200px;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.post h2 {
+    font-size: 28px;
+}
+
+.post p {
+    line-height: 1.5;
+}
